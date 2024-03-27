@@ -51,14 +51,12 @@ in accurately classifying images into two distinct categories: ad creatives and 
 
 
 ### ⚡️ Why not CNNS ?
-Convolutional Neural Networks (CNNs) are the go-to choice for image classification tasks. However, CNNs would not be the best choice for this. This is partly due to limitations in available datasets and the computational resources required for training CNNs but this isn't the only reason.
-Well, advertisements have evolved over the years and have become more complex. 
-They are no longer just images or simply texts but a combination of images, text,
-and other elements.
-They are not able to capture the semantic meaning of the text
-let's consider the evolution of Coca-Cola advertisements over time. 
-By examining the progression of their ad campaigns, we can observe the changing 
-dynamics and complexities inherent in modern advertising
+- **Limitations in Dataset and Resources**: CNNs aren't the optimal choice due to constraints in available datasets and the computational resources required for training.
+
+- **Complexity of Modern Advertisements**: Advertisements have evolved beyond simple images or text, now incorporating a combination of images, text, and other elements, making it challenging for CNNs to accurately interpret them.
+
+- **Semantic Understanding**: CNNs struggle to capture the semantic meaning of text within advertisements, limiting their ability to comprehend the full context and message conveyed.
+
 
 ![alt text](Images/img.png)
 ![alt text](Images/img_2.png)
@@ -68,12 +66,13 @@ dynamics and complexities inherent in modern advertising
 
 ## ️✨️ FUSED MULTIMODAL 
 
-### ⚡ QWEN-VL CHAT 
-- **Text Encoder:** BERT  
-- **Visual Encoder:** EfficientNet  
+### ⚡ QWEN-VL CHAT (For Feature Extraction)
+- **Text Encoder:** QWEN  
+- **Visual Encoder:** ViT  
 
 
 Feature Extraction by QWEN_VL for the following
+![alt text](Images/QWEN_VL.png)
 
 ## ✨ Zero-shot
 
@@ -95,4 +94,4 @@ META's ImageBind is beter than the dual encoder architecture as cited by
 
 | Model        | Accuracy | Recall |
 |--------------|----------|--------|
-| Model 1      | 0.85     | 0.90   |
+| Model 1      | 0.85     | 0.95   |
