@@ -82,7 +82,7 @@ Feature Extraction by QWEN_VL for the following
 
 | Model        | Accuracy | Recall |
 |--------------|----------|--------|
-| Model 1      | 0.85     | 0.90   |
+| Model 1      | 0.84     | 0.90   |
 
 
 ### ✨ ImageBind 
