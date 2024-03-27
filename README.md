@@ -95,3 +95,6 @@ META's ImageBind is beter than the dual encoder architecture as cited by
 | Model        | Accuracy | Recall |
 |--------------|----------|--------|
 | Model 1      | 0.96     | 0.95   |
+
+
+#### Note: The models were tested on latest advertisement images scraped from the web in real time
