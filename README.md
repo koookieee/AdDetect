@@ -36,7 +36,7 @@
 
 
 
-# ✨ Introduction to Ad Creative Recognition Solution
+# ✨ Introduction to Ad Creative Recognition 
 
 
 Personalized advertisement is a crucial task for many of the online businesses and video broadcasters. It indeed is a pivotal strategy through which businesses try to connect with their audience in a meaningful way, drive engagement and conversions, and stay ahead in today's dynamic digital landscape
