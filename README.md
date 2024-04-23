@@ -2,8 +2,6 @@
 
 
 
-<img width="196px" alt="gowebly logo" src="https://w7.pngwing.com/pngs/166/483/png-transparent-chicken-cartoon-google-s-computer-file-cute-chick-cartoon-clip-free-cartoon-character-free-logo-design-template-animals-thumbnail.png"></a>
-
 <a name="readme-top"></a>
 </div>
 
